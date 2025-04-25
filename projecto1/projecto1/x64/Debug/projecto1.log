@@ -1,0 +1,289 @@
+﻿  projecto1.cpp
+D:\entorns de desenvolupament\projecto1\projecto1.cpp(8,29): error C2679: '+' binario: no se encontró un operador que adopte un operando en la parte derecha de tipo 'overloaded-function' (o bien no existe una conversión aceptable)
+      C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.41.34120\include\xstring(3226,62):
+      puede ser 'std::basic_string<char,std::char_traits<char>,std::allocator<char>> std::operator +<char,std::char_traits<char>,std::allocator<char>>(std::basic_string<char,std::char_traits<char>,std::allocator<char>> &&,const _Elem)'
+          with
+          [
+              _Elem=char
+          ]
+          D:\entorns de desenvolupament\projecto1\projecto1.cpp(8,29):
+          'std::basic_string<char,std::char_traits<char>,std::allocator<char>> std::operator +<char,std::char_traits<char>,std::allocator<char>>(std::basic_string<char,std::char_traits<char>,std::allocator<char>> &&,const _Elem)': el argumento 2 no puede convertirse de 'std::basic_ostream<_Elem,_Traits> &(__cdecl *)(std::basic_ostream<_Elem,_Traits> &)' a 'const _Elem'
+          with
+          [
+              _Elem=char
+          ]
+              D:\entorns de desenvolupament\projecto1\projecto1.cpp(8,38):
+              El contexto no permite que se anule la ambigüedad de la función sobrecargada
+      C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.41.34120\include\xstring(3220,62):
+      o       'std::basic_string<char,std::char_traits<char>,std::allocator<char>> std::operator +<char,std::char_traits<char>,std::allocator<char>>(std::basic_string<char,std::char_traits<char>,std::allocator<char>> &&,const _Elem *const )'
+          with
+          [
+              _Elem=char
+          ]
+          D:\entorns de desenvolupament\projecto1\projecto1.cpp(8,29):
+          'std::basic_string<char,std::char_traits<char>,std::allocator<char>> std::operator +<char,std::char_traits<char>,std::allocator<char>>(std::basic_string<char,std::char_traits<char>,std::allocator<char>> &&,const _Elem *const )': el argumento 2 no puede convertirse de 'std::basic_ostream<_Elem,_Traits> &(__cdecl *)(std::basic_ostream<_Elem,_Traits> &)' a 'const _Elem *const '
+          with
+          [
+              _Elem=char
+          ]
+              D:\entorns de desenvolupament\projecto1\projecto1.cpp(8,38):
+              El contexto no permite que se anule la ambigüedad de la función sobrecargada
+      C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.41.34120\include\xstring(3195,62):
+      o       'std::basic_string<char,std::char_traits<char>,std::allocator<char>> std::operator +<char,std::char_traits<char>,std::allocator<char>>(std::basic_string<char,std::char_traits<char>,std::allocator<char>> &&,std::basic_string<char,std::char_traits<char>,std::allocator<char>> &&)'
+          D:\entorns de desenvolupament\projecto1\projecto1.cpp(8,29):
+          'std::basic_string<char,std::char_traits<char>,std::allocator<char>> std::operator +<char,std::char_traits<char>,std::allocator<char>>(std::basic_string<char,std::char_traits<char>,std::allocator<char>> &&,std::basic_string<char,std::char_traits<char>,std::allocator<char>> &&)': el argumento 2 no puede convertirse de 'std::basic_ostream<_Elem,_Traits> &(__cdecl *)(std::basic_ostream<_Elem,_Traits> &)' a 'std::basic_string<char,std::char_traits<char>,std::allocator<char>> &&'
+              D:\entorns de desenvolupament\projecto1\projecto1.cpp(8,38):
+              Razón: no se puede realizar la conversión de 'overloaded-function' a 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+              D:\entorns de desenvolupament\projecto1\projecto1.cpp(8,38):
+              'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string':ninguna función sobrecargada pudo convertir todos los tipos de argumento
+                  C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.41.34120\include\xstring(749,5):
+                  puede ser 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string(const _Elem *const )'
+          with
+          [
+              _Elem=char
+          ]
+                      D:\entorns de desenvolupament\projecto1\projecto1.cpp(8,38):
+                      'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string(const _Elem *const )': el argumento 1 no puede convertirse de 'std::basic_ostream<_Elem,_Traits> &(__cdecl *)(std::basic_ostream<_Elem,_Traits> &)' a 'const _Elem *const '
+          with
+          [
+              _Elem=char
+          ]
+                          D:\entorns de desenvolupament\projecto1\projecto1.cpp(8,38):
+                          El contexto no permite que se anule la ambigüedad de la función sobrecargada
+                  C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.41.34120\include\xstring(1327,5):
+                  o       'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string(std::initializer_list<_Elem>,const _Alloc &)'
+          with
+          [
+              _Elem=char,
+              _Alloc=std::allocator<char>
+          ]
+                      D:\entorns de desenvolupament\projecto1\projecto1.cpp(8,38):
+                      'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string(std::initializer_list<_Elem>,const _Alloc &)': el argumento 1 no puede convertirse de 'std::basic_ostream<_Elem,_Traits> &(__cdecl *)(std::basic_ostream<_Elem,_Traits> &)' a 'std::initializer_list<_Elem>'
+          with
+          [
+              _Elem=char,
+              _Alloc=std::allocator<char>
+          ]
+          and
+          [
+              _Elem=char
+          ]
+                          D:\entorns de desenvolupament\projecto1\projecto1.cpp(8,38):
+                          La conversión requiere un segundo operador de conversión definido por el usuario o constructor
+                  C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.41.34120\include\xstring(779,5):
+                  o       'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string(_Iter,_Iter,const _Alloc &)'
+          with
+          [
+              _Alloc=std::allocator<char>
+          ]
+                  D:\entorns de desenvolupament\projecto1\projecto1.cpp(8,38):
+                  al hacer coincidir la lista de argumentos '(overloaded-function)'
+      C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.41.34120\include\xstring(3189,62):
+      o       'std::basic_string<char,std::char_traits<char>,std::allocator<char>> std::operator +<char,std::char_traits<char>,std::allocator<char>>(std::basic_string<char,std::char_traits<char>,std::allocator<char>> &&,const std::basic_string<char,std::char_traits<char>,std::allocator<char>> &)'
+          D:\entorns de desenvolupament\projecto1\projecto1.cpp(8,29):
+          'std::basic_string<char,std::char_traits<char>,std::allocator<char>> std::operator +<char,std::char_traits<char>,std::allocator<char>>(std::basic_string<char,std::char_traits<char>,std::allocator<char>> &&,const std::basic_string<char,std::char_traits<char>,std::allocator<char>> &)': el argumento 2 no puede convertirse de 'std::basic_ostream<_Elem,_Traits> &(__cdecl *)(std::basic_ostream<_Elem,_Traits> &)' a 'const std::basic_string<char,std::char_traits<char>,std::allocator<char>> &'
+              D:\entorns de desenvolupament\projecto1\projecto1.cpp(8,38):
+              Razón: no se puede realizar la conversión de 'overloaded-function' a 'const std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+              D:\entorns de desenvolupament\projecto1\projecto1.cpp(8,38):
+              'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string':ninguna función sobrecargada pudo convertir todos los tipos de argumento
+                  C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.41.34120\include\xstring(749,5):
+                  puede ser 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string(const _Elem *const )'
+          with
+          [
+              _Elem=char
+          ]
+                      D:\entorns de desenvolupament\projecto1\projecto1.cpp(8,38):
+                      'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string(const _Elem *const )': el argumento 1 no puede convertirse de 'std::basic_ostream<_Elem,_Traits> &(__cdecl *)(std::basic_ostream<_Elem,_Traits> &)' a 'const _Elem *const '
+          with
+          [
+              _Elem=char
+          ]
+                          D:\entorns de desenvolupament\projecto1\projecto1.cpp(8,38):
+                          El contexto no permite que se anule la ambigüedad de la función sobrecargada
+                  C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.41.34120\include\xstring(1327,5):
+                  o       'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string(std::initializer_list<_Elem>,const _Alloc &)'
+          with
+          [
+              _Elem=char,
+              _Alloc=std::allocator<char>
+          ]
+                      D:\entorns de desenvolupament\projecto1\projecto1.cpp(8,38):
+                      'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string(std::initializer_list<_Elem>,const _Alloc &)': el argumento 1 no puede convertirse de 'std::basic_ostream<_Elem,_Traits> &(__cdecl *)(std::basic_ostream<_Elem,_Traits> &)' a 'std::initializer_list<_Elem>'
+          with
+          [
+              _Elem=char,
+              _Alloc=std::allocator<char>
+          ]
+          and
+          [
+              _Elem=char
+          ]
+                          D:\entorns de desenvolupament\projecto1\projecto1.cpp(8,38):
+                          La conversión requiere un segundo operador de conversión definido por el usuario o constructor
+                  C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.41.34120\include\xstring(779,5):
+                  o       'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string(_Iter,_Iter,const _Alloc &)'
+          with
+          [
+              _Alloc=std::allocator<char>
+          ]
+                  D:\entorns de desenvolupament\projecto1\projecto1.cpp(8,38):
+                  al hacer coincidir la lista de argumentos '(overloaded-function)'
+      C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.41.34120\include\xstring(3183,62):
+      o       'std::basic_string<char,std::char_traits<char>,std::allocator<char>> std::operator +<char,std::char_traits<char>,std::allocator<char>>(const std::basic_string<char,std::char_traits<char>,std::allocator<char>> &,std::basic_string<char,std::char_traits<char>,std::allocator<char>> &&)'
+          D:\entorns de desenvolupament\projecto1\projecto1.cpp(8,29):
+          'std::basic_string<char,std::char_traits<char>,std::allocator<char>> std::operator +<char,std::char_traits<char>,std::allocator<char>>(const std::basic_string<char,std::char_traits<char>,std::allocator<char>> &,std::basic_string<char,std::char_traits<char>,std::allocator<char>> &&)': el argumento 2 no puede convertirse de 'std::basic_ostream<_Elem,_Traits> &(__cdecl *)(std::basic_ostream<_Elem,_Traits> &)' a 'std::basic_string<char,std::char_traits<char>,std::allocator<char>> &&'
+              D:\entorns de desenvolupament\projecto1\projecto1.cpp(8,38):
+              Razón: no se puede realizar la conversión de 'overloaded-function' a 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+              D:\entorns de desenvolupament\projecto1\projecto1.cpp(8,38):
+              'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string':ninguna función sobrecargada pudo convertir todos los tipos de argumento
+                  C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.41.34120\include\xstring(749,5):
+                  puede ser 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string(const _Elem *const )'
+          with
+          [
+              _Elem=char
+          ]
+                      D:\entorns de desenvolupament\projecto1\projecto1.cpp(8,38):
+                      'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string(const _Elem *const )': el argumento 1 no puede convertirse de 'std::basic_ostream<_Elem,_Traits> &(__cdecl *)(std::basic_ostream<_Elem,_Traits> &)' a 'const _Elem *const '
+          with
+          [
+              _Elem=char
+          ]
+                          D:\entorns de desenvolupament\projecto1\projecto1.cpp(8,38):
+                          El contexto no permite que se anule la ambigüedad de la función sobrecargada
+                  C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.41.34120\include\xstring(1327,5):
+                  o       'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string(std::initializer_list<_Elem>,const _Alloc &)'
+          with
+          [
+              _Elem=char,
+              _Alloc=std::allocator<char>
+          ]
+                      D:\entorns de desenvolupament\projecto1\projecto1.cpp(8,38):
+                      'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string(std::initializer_list<_Elem>,const _Alloc &)': el argumento 1 no puede convertirse de 'std::basic_ostream<_Elem,_Traits> &(__cdecl *)(std::basic_ostream<_Elem,_Traits> &)' a 'std::initializer_list<_Elem>'
+          with
+          [
+              _Elem=char,
+              _Alloc=std::allocator<char>
+          ]
+          and
+          [
+              _Elem=char
+          ]
+                          D:\entorns de desenvolupament\projecto1\projecto1.cpp(8,38):
+                          La conversión requiere un segundo operador de conversión definido por el usuario o constructor
+                  C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.41.34120\include\xstring(779,5):
+                  o       'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string(_Iter,_Iter,const _Alloc &)'
+          with
+          [
+              _Alloc=std::allocator<char>
+          ]
+                  D:\entorns de desenvolupament\projecto1\projecto1.cpp(8,38):
+                  al hacer coincidir la lista de argumentos '(overloaded-function)'
+      C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.41.34120\include\xstring(3172,62):
+      o       'std::basic_string<char,std::char_traits<char>,std::allocator<char>> std::operator +<char,std::char_traits<char>,std::allocator<char>>(const std::basic_string<char,std::char_traits<char>,std::allocator<char>> &,const _Elem)'
+          with
+          [
+              _Elem=char
+          ]
+          D:\entorns de desenvolupament\projecto1\projecto1.cpp(8,29):
+          'std::basic_string<char,std::char_traits<char>,std::allocator<char>> std::operator +<char,std::char_traits<char>,std::allocator<char>>(const std::basic_string<char,std::char_traits<char>,std::allocator<char>> &,const _Elem)': el argumento 2 no puede convertirse de 'std::basic_ostream<_Elem,_Traits> &(__cdecl *)(std::basic_ostream<_Elem,_Traits> &)' a 'const _Elem'
+          with
+          [
+              _Elem=char
+          ]
+              D:\entorns de desenvolupament\projecto1\projecto1.cpp(8,38):
+              El contexto no permite que se anule la ambigüedad de la función sobrecargada
+      C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.41.34120\include\xstring(3159,62):
+      o       'std::basic_string<char,std::char_traits<char>,std::allocator<char>> std::operator +<char,std::char_traits<char>,std::allocator<char>>(const std::basic_string<char,std::char_traits<char>,std::allocator<char>> &,const _Elem *const )'
+          with
+          [
+              _Elem=char
+          ]
+          D:\entorns de desenvolupament\projecto1\projecto1.cpp(8,29):
+          'std::basic_string<char,std::char_traits<char>,std::allocator<char>> std::operator +<char,std::char_traits<char>,std::allocator<char>>(const std::basic_string<char,std::char_traits<char>,std::allocator<char>> &,const _Elem *const )': el argumento 2 no puede convertirse de 'std::basic_ostream<_Elem,_Traits> &(__cdecl *)(std::basic_ostream<_Elem,_Traits> &)' a 'const _Elem *const '
+          with
+          [
+              _Elem=char
+          ]
+              D:\entorns de desenvolupament\projecto1\projecto1.cpp(8,38):
+              El contexto no permite que se anule la ambigüedad de la función sobrecargada
+      C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.41.34120\include\xstring(3123,62):
+      o       'std::basic_string<char,std::char_traits<char>,std::allocator<char>> std::operator +<char,std::char_traits<char>,std::allocator<char>>(const std::basic_string<char,std::char_traits<char>,std::allocator<char>> &,const std::basic_string<char,std::char_traits<char>,std::allocator<char>> &)'
+          D:\entorns de desenvolupament\projecto1\projecto1.cpp(8,29):
+          'std::basic_string<char,std::char_traits<char>,std::allocator<char>> std::operator +<char,std::char_traits<char>,std::allocator<char>>(const std::basic_string<char,std::char_traits<char>,std::allocator<char>> &,const std::basic_string<char,std::char_traits<char>,std::allocator<char>> &)': el argumento 2 no puede convertirse de 'std::basic_ostream<_Elem,_Traits> &(__cdecl *)(std::basic_ostream<_Elem,_Traits> &)' a 'const std::basic_string<char,std::char_traits<char>,std::allocator<char>> &'
+              D:\entorns de desenvolupament\projecto1\projecto1.cpp(8,38):
+              Razón: no se puede realizar la conversión de 'overloaded-function' a 'const std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+              D:\entorns de desenvolupament\projecto1\projecto1.cpp(8,38):
+              'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string':ninguna función sobrecargada pudo convertir todos los tipos de argumento
+                  C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.41.34120\include\xstring(749,5):
+                  puede ser 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string(const _Elem *const )'
+          with
+          [
+              _Elem=char
+          ]
+                      D:\entorns de desenvolupament\projecto1\projecto1.cpp(8,38):
+                      'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string(const _Elem *const )': el argumento 1 no puede convertirse de 'std::basic_ostream<_Elem,_Traits> &(__cdecl *)(std::basic_ostream<_Elem,_Traits> &)' a 'const _Elem *const '
+          with
+          [
+              _Elem=char
+          ]
+                          D:\entorns de desenvolupament\projecto1\projecto1.cpp(8,38):
+                          El contexto no permite que se anule la ambigüedad de la función sobrecargada
+                  C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.41.34120\include\xstring(1327,5):
+                  o       'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string(std::initializer_list<_Elem>,const _Alloc &)'
+          with
+          [
+              _Elem=char,
+              _Alloc=std::allocator<char>
+          ]
+                      D:\entorns de desenvolupament\projecto1\projecto1.cpp(8,38):
+                      'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string(std::initializer_list<_Elem>,const _Alloc &)': el argumento 1 no puede convertirse de 'std::basic_ostream<_Elem,_Traits> &(__cdecl *)(std::basic_ostream<_Elem,_Traits> &)' a 'std::initializer_list<_Elem>'
+          with
+          [
+              _Elem=char,
+              _Alloc=std::allocator<char>
+          ]
+          and
+          [
+              _Elem=char
+          ]
+                          D:\entorns de desenvolupament\projecto1\projecto1.cpp(8,38):
+                          La conversión requiere un segundo operador de conversión definido por el usuario o constructor
+                  C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.41.34120\include\xstring(779,5):
+                  o       'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string(_Iter,_Iter,const _Alloc &)'
+          with
+          [
+              _Alloc=std::allocator<char>
+          ]
+                  D:\entorns de desenvolupament\projecto1\projecto1.cpp(8,38):
+                  al hacer coincidir la lista de argumentos '(overloaded-function)'
+      C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.41.34120\include\xstring(3214,62):
+      o       'std::basic_string<_Elem,_Traits,_Alloc> std::operator +(const _Elem,std::basic_string<_Elem,_Traits,_Alloc> &&)'
+          D:\entorns de desenvolupament\projecto1\projecto1.cpp(8,29):
+          "std::basic_string<_Elem,_Traits,_Alloc> std::operator +(const _Elem,std::basic_string<_Elem,_Traits,_Alloc> &&)": no se pudo deducir el argumento plantilla para "_Traits"
+          D:\entorns de desenvolupament\projecto1\projecto1.cpp(8,29):
+          "std::basic_string<_Elem,_Traits,_Alloc> std::operator +(const _Elem,std::basic_string<_Elem,_Traits,_Alloc> &&)": no se pudo deducir el argumento plantilla para "_Alloc"
+      C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.41.34120\include\xstring(3208,62):
+      o       'std::basic_string<_Elem,_Traits,_Alloc> std::operator +(const _Elem *const ,std::basic_string<_Elem,_Traits,_Alloc> &&)'
+          D:\entorns de desenvolupament\projecto1\projecto1.cpp(8,29):
+          "std::basic_string<_Elem,_Traits,_Alloc> std::operator +(const _Elem *const ,std::basic_string<_Elem,_Traits,_Alloc> &&)": no se pudo deducir el argumento plantilla para "const _Elem *const " de "std::basic_string<char,std::char_traits<char>,std::allocator<char>>"
+      C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.41.34120\include\xstring(3148,62):
+      o       'std::basic_string<_Elem,_Traits,_Alloc> std::operator +(const _Elem,const std::basic_string<_Elem,_Traits,_Alloc> &)'
+          D:\entorns de desenvolupament\projecto1\projecto1.cpp(8,29):
+          "std::basic_string<_Elem,_Traits,_Alloc> std::operator +(const _Elem,const std::basic_string<_Elem,_Traits,_Alloc> &)": no se pudo deducir el argumento plantilla para "_Traits"
+          D:\entorns de desenvolupament\projecto1\projecto1.cpp(8,29):
+          "std::basic_string<_Elem,_Traits,_Alloc> std::operator +(const _Elem,const std::basic_string<_Elem,_Traits,_Alloc> &)": no se pudo deducir el argumento plantilla para "_Alloc"
+      C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.41.34120\include\xstring(3135,62):
+      o       'std::basic_string<_Elem,_Traits,_Alloc> std::operator +(const _Elem *const ,const std::basic_string<_Elem,_Traits,_Alloc> &)'
+          D:\entorns de desenvolupament\projecto1\projecto1.cpp(8,29):
+          "std::basic_string<_Elem,_Traits,_Alloc> std::operator +(const _Elem *const ,const std::basic_string<_Elem,_Traits,_Alloc> &)": no se pudo deducir el argumento plantilla para "const _Elem *const " de "std::basic_string<char,std::char_traits<char>,std::allocator<char>>"
+      C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.41.34120\include\xutility(4454,5):
+      o       'std::move_iterator<_Iter> std::operator +(move_iterator<_Iter>::difference_type,const std::move_iterator<_Iter> &) noexcept(<expr>)'
+          D:\entorns de desenvolupament\projecto1\projecto1.cpp(8,29):
+          "std::move_iterator<_Iter> std::operator +(move_iterator<_Iter>::difference_type,const std::move_iterator<_Iter> &) noexcept(<expr>)": no se pudo deducir el argumento plantilla para "_Iter"
+      C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.41.34120\include\xutility(1920,50):
+      o       'std::reverse_iterator<_BidIt> std::operator +(reverse_iterator<_BidIt>::difference_type,const std::reverse_iterator<_BidIt> &) noexcept(<expr>)'
+          D:\entorns de desenvolupament\projecto1\projecto1.cpp(8,29):
+          "std::reverse_iterator<_BidIt> std::operator +(reverse_iterator<_BidIt>::difference_type,const std::reverse_iterator<_BidIt> &) noexcept(<expr>)": no se pudo deducir el argumento plantilla para "_BidIt"
+      D:\entorns de desenvolupament\projecto1\projecto1.cpp(8,29):
+      al hacer coincidir la lista de argumentos '(std::basic_string<char,std::char_traits<char>,std::allocator<char>>, overloaded-function)'
+  
